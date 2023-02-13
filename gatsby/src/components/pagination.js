@@ -25,6 +25,12 @@ const PaginationStyles = styled.div`
       pointer-events: none;
       color: var(--grey);
     }
+    @media (max-width: 800px) {
+      .word {
+        display: none;
+      }
+      font-size: 1.4rem;
+    }
   }
 `;
 
